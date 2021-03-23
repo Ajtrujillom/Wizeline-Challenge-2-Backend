@@ -1,0 +1,11 @@
+{
+  "name": "wize-academy-a2",
+  "version": "1.0.0",
+  "description": "Backend API automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "newman run './Collections/WA_Second_Assessment.postman_collection.json' -e './Enviroments/Wize_Academy_Todoist.postman_environment.json' -d './Data/newtask.csv' -r htmlextra --reporter-htmlextra-export './Reports/reporte.html'"
+  },
+  "author": "Andres Trujillo",
+  "license": "ISC"
+}
