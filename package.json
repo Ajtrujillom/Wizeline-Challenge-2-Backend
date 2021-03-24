@@ -7,5 +7,7 @@
     "test": "newman run './Collections/WA_Second_Assessment.postman_collection.json' -e './Enviroments/Wize_Academy_Todoist.postman_environment.json' -d './Data/newtask.csv' -r htmlextra --reporter-htmlextra-export './Reports/reporte.html'"
   },
   "author": "Andres Trujillo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.2.2"
 }
